@@ -1,0 +1,103 @@
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.log
+
+# IDE 配置文件
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.springBeans
+
+# 前端依赖和构建文件
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/*.log
+**/.vite/
+**/.cache/
+
+# 前端包管理器锁文件（建议保留，用于精确版本控制）
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# 后端 Java 编译输出
+**/target/
+**/out/
+**/build/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.gz
+
+# Maven 特定
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+
+# Gradle 特定
+.gradle/
+**/build/
+
+# 环境配置文件（包含敏感信息）
+.env
+.env.local
+.env.*.local
+application-local.yml
+application-dev.yml
+application-prod.yml
+application-test.yml
+*.p12
+*.jks
+*.key
+
+# 日志文件
+logs/
+*.log
+*.tmp
+
+# 测试覆盖率报告
+coverage/
+.nyc_output/
+
+# IDE 特定
+**/.settings/
+**/.factorypath
+**/.project
+**/.classpath
+
+# 临时文件
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 系统文件
+._*
+.cache
+.classpath
+.project
+.settings
+.factorypath
+
+# 确保不忽略源码目录
+!src/
+!**/src/
+
+# 确保不忽略配置文件（如果需要）
+!**/application.yml
+!**/application.properties
+!**/bootstrap.yml
+!**/bootstrap.properties
